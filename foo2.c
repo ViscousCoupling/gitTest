@@ -3,6 +3,17 @@
 
 void app_main(void)
 {
-	printf("Hello World\n");
+	
+	if(gpio_set_level(GPIO_NUM_1, 1) !=0){
+		
+		// write some code here 	
+	
+	}
+	else{
+		abort(); 
+	
+	}
+	
+	
 	
 }
